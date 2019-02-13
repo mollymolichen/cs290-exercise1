@@ -1,7 +1,33 @@
+/***** Classes *****/
 .container {
-    
+    background-color: aliceblue;
+    height: 100%;
+    font-family: Lucida Console;
+    display: flex;
+    flex-direction: column;
 }
 
 .about {
     text-align: center;
+}
+
+
+/***** IDs *****/
+#overview {
+
+}
+
+#roadmap-left {
+    margin-right: 10px;
+    background-color: pink;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+#roadmap-right {
+
+    background-color: lightyellow;
+    flex-direction: row;
 }
