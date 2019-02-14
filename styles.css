@@ -1,8 +1,37 @@
+/***** Predefined elements *****/
+body {
+    font-family: Lucida Console;
+    height: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    /*margin: 1em;*/
+    background-color: lightyellow;
+    height: 70px;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+
 /***** Classes *****/
 .container {
     background-color: aliceblue;
     height: 100%;
-    font-family: Lucida Console;
     display: flex;
     flex-direction: column;
 }
@@ -11,6 +40,31 @@
     text-align: center;
 }
 
+.roadmap {
+    flex-direction: row;
+    display: flex;
+}
+
+.team {
+    text-align: center;
+    flex-direction: row;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.team-photo {
+    width: 30%;
+    margin: 10px;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.wireframe {
+    width: 25%;
+    margin: 10px;
+    flex-wrap: wrap;
+    height: 250px;
+}
 
 /***** IDs *****/
 #overview {
@@ -20,14 +74,18 @@
 #roadmap-left {
     margin-right: 10px;
     background-color: pink;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    align-content: flex-end;
+    width: 50%;
 }
 
 #roadmap-right {
-
     background-color: lightyellow;
-    flex-direction: row;
+    width: 50%;
+}
+
+#team-left {
+    width: 50%;
+}
+
+#team-right {
+    width: 50%;
 }
