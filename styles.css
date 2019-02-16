@@ -66,6 +66,24 @@ nav li {
     height: 250px;
 }
 
+.team-info {
+  text-align: center;
+  flex-direction: row;
+  background-color: pink;
+  display: flex;
+}
+
+.team-table {
+  width: 100%;
+  margin: 10px;
+}
+
+.feedback {
+  text-align: center;
+  background-color: pink;
+}
+
+
 /***** IDs *****/
 #overview {
 
@@ -83,9 +101,13 @@ nav li {
 }
 
 #team-left {
-    width: 50%;
+    width: 33.33%;
+}
+
+#team-center {
+    width: 33.33%;
 }
 
 #team-right {
-    width: 50%;
+    width: 33.33%;
 }
