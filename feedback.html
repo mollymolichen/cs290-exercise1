@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--Template CSS file-->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Weekendr: Feedback Team</title>
 </head>
@@ -18,27 +17,24 @@
             </nav>
       </header>
 
-      <div class="about">
+      <div class="feedback-about">
         <h1> Send us feedback! </h1>
-        <p> At Weekendr, our team is constantly seeking to improve our product
-          to give users the best possible event matching experience. We love to
-          hear feedback, so please let us know what you think of Weekendr using
-          the form below!</p>
+        <p> At Weekendr, our team is constantly seeking to improve our product to give users the best possible event matching experience. </p>
+        <p>We love hearing feedback, so please let us know what you think of Weekendr!</p>
+        <iframe src="https://giphy.com/embed/1PgweCIrzzjwGR2NzU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>     
       </div>
-      <div class="feedback">
-        <form>
-          First name:
-          <input type="text" name="firstname"><br>
-          Last name:
-          <input type="text" name="lastname"><br>
-          Feedback:
-          <input type="text" name="feedback"><br><br>
 
+      <div class="feedback">
+        <form class="feedback">
+          First name:
+          <input type="text" name="firstname" id="firstname"><br>
+          Last name: 
+          <input type="text" name="lastname" id="lastname"><br>
+          Feedback:
+          <textarea type="text" name="feedback" rows="10" cols="200"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
-
-
   </div>
 </body>
 </html>
