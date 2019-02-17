@@ -19,4 +19,5 @@ Features implemented:
 * Custom styling
 
 Team members: Tim Skapek, Molly Chen
+
 Business lead: Alexandra Barr
